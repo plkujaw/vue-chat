@@ -13,7 +13,7 @@ const login = async (email, password) => {
       password
     );
     error.value = null;
-    console.log(res);
+    // console.log(res);
     return res;
   } catch (err) {
     console.log(err.message);

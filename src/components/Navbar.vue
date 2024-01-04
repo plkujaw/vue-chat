@@ -15,7 +15,7 @@ const handleLogout = async () => {
 <template>
   <nav v-if="currentUser">
     <div>
-      <p>{{ currentUser.displayName }}</p>
+      <p>Logged in as: {{ currentUser.displayName }}</p>
       <p class="email">{{ currentUser.email }}</p>
     </div>
     <button @click="handleLogout">Log Out</button>

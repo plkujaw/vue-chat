@@ -20,6 +20,7 @@ const handleSubmit = async () => {
 
   if (!error.value) {
     message.value = '';
+    console.log(chat);
   }
 };
 </script>

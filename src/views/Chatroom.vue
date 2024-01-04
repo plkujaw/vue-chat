@@ -1,9 +1,10 @@
 <script setup>
 import Navbar from '@/components/Navbar.vue';
-import getUser from '@/composables/getUser';
-import Chat from '@/components/Chat.vue';
+import ChatWindow from '@/components/ChatWindow.vue'
+import MessageInput from '@/components/MessageInput.vue';
 import { watch } from 'vue';
 import { useRouter } from 'vue-router';
+import getUser from '@/composables/getUser';
 
 const router = useRouter();
 const { currentUser } = getUser();
@@ -19,7 +20,8 @@ watch(currentUser, () => {
 <template>
   <div class="container">
     <Navbar />
-    <Chat />
+    <ChatWindow />
+    <MessageInput />
   </div>
 </template>
 

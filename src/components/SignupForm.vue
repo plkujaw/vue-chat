@@ -27,4 +27,5 @@ const handleSubmit = async () => {
   </form>
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>
