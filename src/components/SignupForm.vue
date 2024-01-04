@@ -1,5 +1,5 @@
 <script setup>
-import { ref, defineEmits } from 'vue';
+import { ref } from 'vue';
 import useSignup from '@/composables/useSignup';
 
 const emit = defineEmits(['signup']);

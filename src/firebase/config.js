@@ -3,7 +3,7 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyClsMWdAudfpyMQfIsgPyRB9uaBJhCZBW0',
+  apiKey: `${process.env.VUE_FIREBASE_API}`,
   authDomain: 'ninja-89ca6.firebaseapp.com',
   projectId: 'ninja-89ca6',
   storageBucket: 'ninja-89ca6.appspot.com',
