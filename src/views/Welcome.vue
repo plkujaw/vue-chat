@@ -65,5 +65,12 @@ const enterChat = () => {
   text-decoration: underline;
   font-weight: bold;
   cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration-color: currentColor;
+}
+
+.welcome span:hover,
+.welcome span:focus {
+  text-decoration-color: transparent;
 }
 </style>
